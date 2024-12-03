@@ -12,7 +12,7 @@ The project is divided into several parts:
 **WARNING**: Since I am majoring in Chinese Language and Literature, I am a beginner in coding and may not be able to provide a high-quality code. That is to say, there may be many errors in the code and the documentation. If you find any errors or have any suggestions, please feel free to contact me.
 
 # Details
-[![pAoVYdO.png](https://s21.ax1x.com/2024/12/03/pAoVYdO.png)](https://imgse.com/i/pAoVYdO)
+<a href="https://imgse.com/i/pAoVYdO"><img src="https://s21.ax1x.com/2024/12/03/pAoVYdO.png" alt="pAoVYdO.png" border="0" /></a>
 ## Data preprocessing
 This is the structure of database(a xml file):
 ```xml
@@ -84,4 +84,4 @@ Those who provided their masterpieces for this project are listed below:
 - Junhan Zhou (Chemistry)
 - Yaohui Xie (Chemistry)
 
-I would like to thank my teacher **Mr.Liu** for his guidance and support. And last but not least, I would like to thank the open-source libraries used in this project.
+I would like to thank my teacher **Oscar Liu** for his guidance and support. And last but not least, I would be grateful to all the creators of the libraries used in this project, even though I cannot fully use them in this project.
