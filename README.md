@@ -1,4 +1,4 @@
-_☞I am now preparing for **National Teacher Certificate Examination**, which make me busy for a while. I will continue to update this project when I have time._
+_☞I am now preparing for **National Teacher Certificate Examination**, which makes me busy for a while. I will continue to update this project when I have time._
 
 # Introduction
 This is a natural language processing project that aims to extract features from academic essays. The features are mainly based on the content of the essays, such as the length of each sentence, the number of clauses, the coherence of the sentences, and the consistency of the essay. The project also includes a part of topic modeling analysis, which is based on the LDA algorithm. The project is implemented in Python and uses several libraries, including jieba, snownlp, and pyLDAvis.
@@ -14,6 +14,42 @@ The project is divided into several parts:
 # Details
 [![pAoVYdO.png](https://s21.ax1x.com/2024/12/03/pAoVYdO.png)](https://imgse.com/i/pAoVYdO)
 ## Data preprocessing
+This is the structure of database(a xml file):
+```xml
+<?xml version='1.0' encoding='utf-8'?>
+<Corpus>
+    <Header>
+        <Title>Corpus-X</Title>
+        <Author>Sam-0712</Author>
+        <CreationDate>2024-11-27</CreationDate>
+    </Header>
+
+    <School>
+        <Name>Your School</Name>
+        <Authors>
+            <Author major="Chinese Language and Literature" grade="20xx">Sam-0712</Author>
+        </Authors>
+    </School>
+
+    <Papers>
+        <Paper>
+            <ID>1</ID>
+            <Metadata>
+                <Title></Title>
+                <Author></Author>
+                <Curriculum></Curriculum>
+                <Year></Year>
+                <Month></Month>
+                <Day></Day>
+            </Metadata>
+            <Abstract></Abstract>
+            <Keywords></Keywords> 
+            <Body></Body>
+            <Reference></Reference>
+        </Paper>
+    </Papers>
+</Corpus>
+```
 The essays are loaded from the specified directory and preprocessed, including tokenization, stop words removal, and sentence splitting. The preprocessed data is stored in a dictionary, where each key is the ID of the essay, and the value is a dictionary containing the preprocessed information.
 
 The tokenization is done using the specified tokenization model, which can be 'jieba', 'hanlp', or'snownlp'. The stop words are removed using the specified stop words file. The sentence splitting is done using regular expressions.
