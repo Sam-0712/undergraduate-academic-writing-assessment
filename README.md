@@ -1,3 +1,5 @@
+_☞I am now preparing for **National Teacher Certificate Examination**, which make me busy for a while. I will continue to update this project when I have time._
+
 # Introduction
 This is a natural language processing project that aims to extract features from academic essays. The features are mainly based on the content of the essays, such as the length of each sentence, the number of clauses, the coherence of the sentences, and the consistency of the essay. The project also includes a part of topic modeling analysis, which is based on the LDA algorithm. The project is implemented in Python and uses several libraries, including jieba, snownlp, and pyLDAvis.
 
@@ -10,6 +12,7 @@ The project is divided into several parts:
 **WARNING**: Since I am majoring in Chinese Language and Literature, I am a beginner in coding and may not be able to provide a high-quality code. That is to say, there may be many errors in the code and the documentation. If you find any errors or have any suggestions, please feel free to contact me.
 
 # Details
+[![pAoVYdO.png](https://s21.ax1x.com/2024/12/03/pAoVYdO.png)](https://imgse.com/i/pAoVYdO)
 ## Data preprocessing
 The essays are loaded from the specified directory and preprocessed, including tokenization, stop words removal, and sentence splitting. The preprocessed data is stored in a dictionary, where each key is the ID of the essay, and the value is a dictionary containing the preprocessed information.
 
