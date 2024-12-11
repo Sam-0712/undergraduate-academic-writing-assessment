@@ -10,7 +10,7 @@
 
 > :warning: **Before you start**
 > - Since I am majoring in Chinese Language and Literature, I am a beginner in coding and may not be able to provide a high-quality code. That is to say, there may be many errors in the code and the documentation. If you find any errors or have any suggestions, please feel free to contact me.
-> - I am now preparing for **National Teacher Certificate Examination**, which makes me busy for a while. I will continue to update this project when I have time.
+> - Yet I just found that this parameter is not very useful. In fact, the statistics are too coarse-grained and do not reflect the nuances of the writing style. For example, some papers may use more than one sentence to express their ideas, while others may use a single sentence to write more concisely. Therefore, I decided to turn to machine learning algorithms to analyze the writing style, even though it is not my primary research direction and I am not sure if I can do it well.
 
 # Introduction
 This is a natural language processing project that aims to extract features from academic essays. The features are mainly based on the content of the essays, such as the length of each sentence, the number of clauses, the coherence of the sentences, and the consistency of the essay. The project also includes a part of topic modeling analysis, which is based on the LDA algorithm. The project is implemented in Python and uses several libraries, including `jieba`, `snownlp`, and `pyLDAvis`.
@@ -90,7 +90,7 @@ The project is still under development and will be updated frequently. If you ha
 # Acknowledgements
 After a heat discussion with my teacher, I decided to put emphasis on my major: Chinese Language and Literature, as we had written a lot of essays, several times more than other students. 
 Those who provided their masterpieces for this project are listed below:
-- *Yuanwen Su*, *Zhaoyang Huang*, *Minwen Wu* (Chinese Language and Literature)
+- *Yuanwen Su*, *Zhaoyang Huang*, *Minwen Wu*, *Huixin Liu*, *Jiayi Liu*, *Yitong Chen*, *Menglei Cao*, *Zengqiong Li* (Chinese Language and Literature)
 - *Zexin He* (Mathematics and Applied Mathematics)
 - *Junhan Zhou*, *Yaohui Xie* (Chemistry)
 
