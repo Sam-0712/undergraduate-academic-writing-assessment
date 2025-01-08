@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术写作能力分数计算</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>BNUZ中文系学生学术写作估分器</h1>
+    <div class="container">
+        <div class="left-column">
+            <div class="input-group">
+                <label for="content">正文</label>
+                <textarea id="content" name="content" rows="30" required></textarea>
+            </div>
+        </div>
+        <div class="right-column">
+            <form id="scoreForm">
+                <div class="input-group">
+                    <label for="title">题目</label>
+                    <input type="text-short" id="title" name="title" required>
+                </div>
+                <div class="input-group">
+                    <label for="abstract">摘要</label>
+                    <input type="text" id="abstract" name="abstract" required>
+                </div>
+                <div class="input-group">
+                    <label for="keywords">关键词</label>
+                    <input type="text-short" id="keywords" name="keywords" required>
+                </div>
+                <div class="input-group">
+                    <label for="date">写作日期</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="button-group">
+                    <button type="submit">计算分数</button>
+                    <button type="reset" id="resetButton">全部清空</button>
+                    <button type="link" id="linkButton">GitHub仓库</button>
+                </div>
+            </form>
+            <h2>结果</h2>
+            <div id="result" class="result-box"></div>
+        </div>
+    </div>
+    
+    <script src="./js/calculate.js"></script>
+    <script src="./js/reset.js"></script>
+    <script src="./js/test.js"></script>
+    <script src="./js/link.js"></script>
+</body>
+</html>
